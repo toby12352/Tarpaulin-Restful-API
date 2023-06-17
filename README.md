@@ -13,14 +13,8 @@ If you want to update your local branch
 If you want to pull from 'main' branch
 
   $git pull
-
--------------------------------------------------------------------------------
-
-clone repository:
-  $ git clone https://github.com/osu-cs493-sp23/final-project-Min-K-99.git
   
 -------------------------------------------------------------------------------
-
 create your own branch:
   `$ git checkout -b [name your branch here] main`
   
