@@ -14,13 +14,13 @@ Testing Tool: Insomnia
 
 # Entities #
 
-*`Users` - This represents Tarpaulin application users. Each user have one of three roles: `admin`, `instructor` and `student`. Each role represents a different set of perimssions to perform certain API actions.
+* `Users` - This represents Tarpaulin application users. Each user have one of three roles: `admin`, `instructor` and `student`. Each role represents a different set of perimssions to perform certain API actions.
 
-*`Courses` - These represents courses being managed in Tarpaulin. Each course have basic information, such as subject code, number, title, instructor, etc. Each course also has associated data of other entity types, incuding a list of enrolled students (i.e. Tarpaulin Users with `student` roles) as well as a set of assignments.
+* `Courses` - These represents courses being managed in Tarpaulin. Each course have basic information, such as subject code, number, title, instructor, etc. Each course also has associated data of other entity types, incuding a list of enrolled students (i.e. Tarpaulin Users with `student` roles) as well as a set of assignments.
 
-*`Assignments` - These represent a single assignment for a Tarpaulin Course. Each Assignment belongs to a specific Course and has basic information such as title, due date, etc. It also has a list of individual student submissions.
+* `Assignments` - These represent a single assignment for a Tarpaulin Course. Each Assignment belongs to a specific Course and has basic information such as title, due date, etc. It also has a list of individual student submissions.
 
-*`Submissions` - These represent a single student submission for an Assignment in Tarpaulin. Each submission belongs both to its  Assignment to the student who submitted it, and it is marked with a subimssion timestamp. Each submission is also associated with a specific file, which will be uploaded to the Tarpaulin API and stored, so it can be downloaded later.
+* `Submissions` - These represent a single student submission for an Assignment in Tarpaulin. Each submission belongs both to its  Assignment to the student who submitted it, and it is marked with a subimssion timestamp. Each submission is also associated with a specific file, which will be uploaded to the Tarpaulin API and stored, so it can be downloaded later.
 
 # Docker #
 
