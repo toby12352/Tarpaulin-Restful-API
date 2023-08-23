@@ -43,13 +43,11 @@ For more information and better visualization of how the Tarpaulin Restful API w
 __________________________________________
 If you want to update your local branch
 
-  $git pull origin {branch name you want to pull}
+  `$git pull origin {branch name you want to pull}`
   
-                  OR
-                  
 If you want to pull from 'main' branch
 
-  $git pull
+  `$git pull`
   
 -------------------------------------------------------------------------------
 create your own branch:
