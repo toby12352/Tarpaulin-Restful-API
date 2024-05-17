@@ -26,9 +26,6 @@ Testing Tool: Insomnia
 
 All services used by Tarpaulin API runs in Docker Containers (MongoDB).
 
-For more information and better visualization of how the Tarpaulin Restful API works, refer to this website below:
-<https://editor.swagger.io>
-
 # Tools require to run: #
 1. `Clone to your local computer`
 2. `Install Docker Container (MongoDB)`
